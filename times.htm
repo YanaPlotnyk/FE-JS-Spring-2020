@@ -11,25 +11,26 @@
 <![endif]-->
 </head>
 <body>
-<header id="" role="banner">
-  <h1>The Times</h1>
-  <p>Of London</p>
+<header id="heder-logo" role="banner">
+  <h1>The <img id="logo" src="images/logo-the-times.png" alt="The Queen" title="The Queen"> Times</h1>
+  <p id="city">Of London</p>
   <p>
     monday <time datetime="2015-02-02">february 2 2015</time> | <a href="http://thetimes.co.uk">thetimes.co.uk</a>  | no 71421
   </p>
 </header>
 <aside>
+  <img src="images/memory.png">
   <h3>How to improve your memory</h3>
-  <p>Anti-age your brain <span> Our special guide starts today</span> <a href="http://thetimes.co.uk/page42-44"></a>Pages 42-44</p>
-  <img src="">
+  <p><span>Anti-age your brain</span> Our special guide starts today <a href="http://thetimes.co.uk/page42-44">Pages 42-44</a></p>
 </aside>
 <main id="" role="main">
-  <article role="article">
+  <article class="main-article" id="article-left" role="article">
     <header>
       <h2>University chiefs scorn Miliband’s fees policy</h2>
-      <p>Reduction to &pound;6,000 a year ‘will only help rich’</p>
-      <p> <span>Greg Hurst</span> Education Editor</p>
+      <p>Reduction to &pound;6,000 a year ‘will only help rich’</p> 
     </header>
+    <div class="article-column article-column-left">
+    <p class="article-author">Greg Hurst <span style="font-weight: normal;"> Education Editor</span></p>
     <p>Labour’s plan to cut tuition fees to &pound;6,000ayear risks “colossaldamage”to universities and will only help betteroff graduates, Britain’s top academics are warning.</p>
     <p>In a letter to The Times, leaders of England’s universities have appealed to Ed Miliband to abandon the policy, calling it “implausible” that he could guarantee to replace the &pound;10 billion of lost revenue over five years.</p>
     <p>Several have gone farther, accusing the Labour leader of failing to understand that cutting fees would only benefit higher-earning graduates and could remove opportunities for poorer students, who are applying in record numbers. Under the present system, graduates start paying back their loans only once they earnmore than &pound;21,000 a year.</p>
@@ -56,16 +57,19 @@
       </q>
     </blockquote> 
     <p>Continued on <a href="">page 6, col 4</a></p>
+  </div>
+  </article>
 
-  <article>
+  <article class="main-article" id="article-right" role="article">
     <header>
       <h2>Britain isn’t ready for Charles and his activism, fears Queen</h2>
-      <p>Valentine Low</p>
     </header>
+    <div class="article-column article-column-rigth ">
     <figure>
       <figcaption>MARK STEWART</figcaption>
-      <img src="" alt="The Queen" title="The Queen">
+      <img src="images/queen.jpg" alt="The Queen" title="The Queen">
     </figure>
+    <p class="article-author">Valentine Low</p>
     <p>The Queen fears that Britain may not be ready for the radical new style of monarchy envisaged by her eldest son, according to the new biography of the Prince of Wales.</p>
     <p>Catherine Mayer, the author, says that the prince intends to be a more campaigningkind of sovereign than his mother, but some courtiers at Buckingham Palace — as well as the Queen herself — feel that the country is not prepared for the “shock of the new”.</p>
     <p>Mayer also says that the Duke of Edinburgh isamonghis harshest critics and believes the prince to be guilty of “selfish behaviour” in putting his “cerebral passions” before his royal duties.</p>
@@ -77,12 +81,14 @@
 
     <p>Charles on a quest, <a href="">pages 10-11</a> </p>
     <p>Libby Purves, <a href="">page 19</a></p>
-
+  </div>
   </article>
 </main>
+
 <nav>
+  <div class="navigation">
   <h3>IN THE NEWS</h3>
-  <article>
+ <article id="nav-first-article">
     <h4>Taxman’s new target</h4>
     <p>Middle-class professionals who earn more than £150,000 a year have replaced superrich celebrities as the focus of the government’s campaign against tax dodging. <a href="">Page 4</a></p>
   </article>
@@ -98,10 +104,12 @@
     <h4>Murray misery</h4>
     <p>Andy Murray admitted that he was distracted by an apparent injury to Novak Djokovic after losing his fourth Australian Open tennis final in six years. <a href="">Page 64</a></p>
   </article>
-</nav>
-<footer>
+  </div>
+  <footer>
   <p>Buying The Times overseas:Austria €4.80; Belgium €4.00; Bulgaria BGN 7.50; Cyprus €4.00; northern Cyprus YTL 8.00; Denmark DKK 30; France €4.00; Germany €4.00; Gibraltar £2.50; Greece €4.00; Italy € 4.00; Luxembourg €4.00; Malta €4.00; Morocco MAD 36; Netherlands €4.00; Norway NOK42; Oman OMR1.50; Portugal €4.00 (cont.); Spain €4.00; Sweden SEK35; Switzerland CHF6.80; Turkey YTL6.50; UAE AED11
   </p>
 </footer>
+</nav>
+
 </body>
 </html>
